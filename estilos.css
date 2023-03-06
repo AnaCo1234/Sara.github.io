@@ -1,0 +1,183 @@
+*{
+    
+    box-sizing: border-box;
+    font-family: 'Cormorant', serif;
+    font-size: large;
+}
+
+#menu {
+    overflow: hidden;
+    background-color: #ada137;
+  }
+  
+a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-inline: 60px;
+  }
+  
+#menu a:hover {
+    background-color: #ddd;
+    color: #4c4723;
+  }
+  
+#menu a.active {
+    color: white;
+  }
+  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+h1{
+    text-align: center;
+    color: #4c4723;
+    font-size: larger;
+}
+#coverinicio{
+    display: block;
+    margin: auto;
+    margin-top: 30px ;
+}
+audio{
+    display: block;
+    margin: auto;
+}
+.imagendisco{
+    display: inline-block;
+    margin-inline: 30px;
+    margin-top: 30px;
+    margin-left: 70px;
+
+}
+#sobremi1{
+    float: left;
+    margin-left: 70px;
+    margin-top: 90px;
+}
+#sobremi2{
+    margin-left: 450px;
+    margin-right: 90px;
+    margin-top: 90px ;
+    margin-bottom: 200px;
+    
+}
+#calendario{
+    background-color: #ada137;
+}
+video{
+    float:left;
+    margin-top: 90px ;
+    margin-left: 70px;
+}
+.contenedor{
+    margin-top: 150px;
+    margin-left: 650px;
+    padding-bottom: 100px;
+    color: beige;
+}
+.contactos{
+    display: inline-block;
+    
+    
+}
+.formulario{
+    width: 400px;
+    background-color: #ada137;
+    display: inline-block;
+    padding: 30px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 250px;
+}
+.espacios{
+    width: 100%;
+    background-color: #ada137;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #c6b362;
+}
+.textoform{
+    color: beige;
+}
+.boton{
+    width: 100%;
+    background-color: #c6b362;
+    border: 1px solid #c6b362;
+    color: beige;
+    
+}
+footer{
+    background-color: #4c4723;
+    color: beige;
+    height: 50px;
+    padding-left: 30px;
+    
+}
+@media only screen and (max-width: 1307px) {
+    a {
+      margin-inline: auto;
+      padding: 3px;
+
+    }
+    menu{
+        width: 100%;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .imagendisco{
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    video{
+        width: 100%;
+        height: auto;
+        margin:auto;
+    }
+    .contenedor{
+        margin: 3px;
+        padding: 3px;
+    }
+    #sobremi1{
+        margin:auto;
+    }
+    #sobremi2{
+        margin: auto;
+    }
+    .contactos{
+        display: block;
+    }
+    .formulario{
+        width: 90%;
+        height: auto;
+        display: block;
+        margin:auto;
+        padding: 15px;
+        padding-right: 0px;
+        position: relative;
+        
+    }
+    .espacios{
+        width: auto;
+    }
+    .boton{
+        width: auto;
+    }
+    footer{
+        width: auto;
+        height: auto;
+    }
+  }
